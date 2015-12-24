@@ -448,6 +448,7 @@ a:link, a:hover, a:visited, a:active {
 
 /*li中内容超过长度用省略号显示*/
 li { 
+	list-style: none;
   white-space:nowrap; 
   overflow: hidden;
   -o-text-overflow:ellipsis; 

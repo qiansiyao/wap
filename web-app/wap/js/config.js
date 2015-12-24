@@ -23,13 +23,13 @@ var config = {
     server: location.protocol + '//' + location.host,
     server: getRootPath() + '/servlet/ACSClientHttp', //模拟接口用  
     localimage : getRootPath(),
-    image: config.server+'',//根据具体情况来定
+    image:  'http://www.dingboyiliao.com/dingbo',//根据具体情况来定
     version:'v0.1'
 };
 
 config.api_url = config.server;//接口地址
-config.gid = '5f1633ce78ec4966798e316cd4ad0a71b1ad4a4b';  //微信参数，由后台生成，绑定id之类的
-config.token = '26fcf728901adab85c9802e38a6fa120';
+config.gid = '77e4d92cfb81cc736863b6e2abec94f6f407ce78';//微信参数，后台获取
+config.token = 'bd23bc4a59a6157bf03a7c62103264e5';//微信参数，后台获取
 
 // 项目参数
 config.baidu_ak = 'sUGDHo4dOfAZ6Lmy8EogHMly';

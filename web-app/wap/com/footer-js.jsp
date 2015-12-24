@@ -8,4 +8,5 @@
 <script src="<%=request.getContextPath()%>/wap/js/lib/jscroll.js"></script>
 <script src="<%=request.getContextPath()%>/wap/js/config.js"></script>
 <script src="<%=request.getContextPath()%>/wap/js/global.js"></script>
+<script src="<%=request.getContextPath()%>/wap/js/db.js"></script>
 
