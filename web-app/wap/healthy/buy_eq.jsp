@@ -2,7 +2,7 @@
 <!doctype html>
 <html>
 <head>
-<link rel="stylesheet" href="<%=request.getContextPath()%>/wap/css/buy_equipment.css" />
+<link rel="stylesheet" href="<%=request.getContextPath()%>/wap/css/buy_eq.css" />
 <link rel="stylesheet" href="<%=request.getContextPath()%>/wap/css/selectcity.css" />
 <jsp:include page="../com/meta.jsp"></jsp:include>
 <title>购买设备</title>
@@ -82,7 +82,7 @@
       </div>        
     </div>
         
-    <div style="height: 1.16rem;background-color: #fafafa;"></div>
+    <div class="black"></div>
     
     <div class="detail">
       <div class="extre">
@@ -137,7 +137,7 @@
 	var cityname,ele_show;
 	$('.all').on('click', function(e) { // 居住地
     e.preventDefault();
-    $(".popup.cityview").show();	    
+    $('.popup.cityview').show();	    
 	});
 	$('.city .l-line').on('click',function(e){  //点击省
     e.preventDefault();
@@ -168,12 +168,8 @@
        	    ele_show.hide();                   
           }              
        });
-     }          
-       
+     }                 
   });
-	
-	
-	
 	</script>	
 </body>
 </html>

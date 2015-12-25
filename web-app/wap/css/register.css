@@ -7,6 +7,7 @@ input { border:none; }
   margin: 0 auto;
   background-color: #fafafa;  
 }
+/*all begin*/
 .all {
   width: 100%;
   height: 6rem;
@@ -77,6 +78,9 @@ input { border:none; }
   border-radius: 1rem;
   background: #7ed755; 
 }
+/*all end*/
+
+/*operate begin*/
 .operate {
   height: 3rem;
   width: 100%;
@@ -91,7 +95,7 @@ input { border:none; }
   background-position: 90% 50%;    
 }
 .operate .image.active {
-	background:url(../images/icon_select2.png) no-repeat;
+	background: url(../images/icon_select2.png) no-repeat;
 	background-size: 45%;
 	background-position: 90% 50%;
 }
@@ -103,6 +107,9 @@ input { border:none; }
   font-size: 1em;
   color: #c2c2c2;   
 }
+/*operate end*/
+
+/*button begin*/
 .btn.btn-login {
   width: 100%;
   height: 3.25rem;   
@@ -113,4 +120,6 @@ input { border:none; }
   background-color: #7ed755;
 }
 .btn.btn-login .next { color:#fff; }
+/*button end*/
+
 		
