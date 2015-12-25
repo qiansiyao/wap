@@ -137,7 +137,8 @@ a:link, a:hover, a:visited, a:active {
   position: relative;
   min-height: 320px;
   margin-top: -1px;
-  padding: 0;  
+  padding: 0; 
+  background:#FAFAFA; 
 }
 .menu .menu-sep {
   margin: 0 7px 0 7px;
@@ -171,13 +172,7 @@ a:link, a:hover, a:visited, a:active {
 }
 
 .btn { cursor: pointer; }
-.btn {
-  display: block;
-  width: 24px;
-  height: 24px;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
+
 .tabs {
   margin-bottom: 8px;
   margin-top:15px;
@@ -449,9 +444,29 @@ a:link, a:hover, a:visited, a:active {
 /*li中内容超过长度用省略号显示*/
 li { 
 	list-style: none;
-  white-space:nowrap; 
+  white-space: nowrap; 
   overflow: hidden;
-  -o-text-overflow:ellipsis; 
-     text-overflow:ellipsis; 
-} 
+  -o-text-overflow: ellipsis; 
+     text-overflow: ellipsis; 
+}
 
+/*禁用手机浏览器的用户选择功能*/
+.btn {
+	pointer-events: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	 -khtml-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	onselectstart: return false;
+}
+input[type="file"] {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  cursor: pointer;
+}
+input, textarea {
+	border: none;
+	outline: none;
+}

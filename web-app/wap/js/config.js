@@ -23,7 +23,7 @@ var config = {
     server: location.protocol + '//' + location.host,
     server: getRootPath() + '/servlet/ACSClientHttp', //模拟接口用  
     localimage : getRootPath(),
-    image:  'http://www.dingboyiliao.com/dingbo',//根据具体情况来定
+    image: getRootPath(),//根据具体情况来定
     version:'v0.1'
 };
 

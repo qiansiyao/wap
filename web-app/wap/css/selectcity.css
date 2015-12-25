@@ -3,13 +3,10 @@
 	font-size: 1.1em;	
 	overflow: scroll !important;
 }
-.none {
-	display: none;
-}
-.container {
-  padding-left: .15rem;
-}
-.level1 .l-line, .level2 .l-line {
+.none { display: none; }
+.container { padding-left: .15rem; }
+.level1 .l-line, 
+.level2 .l-line {
 	position: relative;
   height: 3rem;    
   color: rgb(160,160,160);
@@ -26,7 +23,7 @@
   width: 2rem;
   height: 100%;
   vertical-align: middle;
-  background: url(../images/icon-more.png) center no-repeat;
+  background: url(../images/icon_more.png) center no-repeat;
   background-size: 30% 30%;
 }
 .popup {

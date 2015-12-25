@@ -21,8 +21,8 @@
 	width: 100%;
   height: auto;
   background-color: #fff;
-  -moz-box-shadow: 0px -2px 1px #eeeeee; 
-       box-shadow: 0px -2px 1px #eeeeee;
+  -moz-box-shadow: 0px -2px 1px #eee; 
+       box-shadow: 0px -2px 1px #eee;
 }
 .order_detail .details {
 	position: relative;
@@ -32,7 +32,7 @@
 }
 .order_detail .details:last-child {
   border-bottom: none; 
-  box-shadow: 0px 2px 1px #eeeeee;
+  box-shadow: 0px 2px 1px #eee;
 }
 .order_detail .details .name {
   display: inline-block;
@@ -72,9 +72,7 @@
   background-position: 99% center;    
 }
 
-.data.txt span {
-	color: #ffbd3e;
-}
+.data.txt span { color: #ffbd3e; }
 .data.math .noadd {
 	padding-right: .6rem;
   color: #7ed755;
@@ -129,7 +127,7 @@
   color: #eff9eb;
   background-color: #7ed755;  
 }
-.bottom {
+.bottom.btn {
 	text-align: center;
   vertical-align: middle;
 }
